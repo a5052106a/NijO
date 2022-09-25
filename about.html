@@ -1,177 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>About NijO | 關於泥臼咖啡：）</title>
     <link href="css/about.css" rel="stylesheet" type="text/css" media="screen">
-	<meta name="keywords" content="NijO,coffee,dessert">
-	<meta name="description" content="我們一起吃著泥臼甜點喝著NijO COFFEE，比著泥臼手勢，合照一張。">
-	<meta property="og:site_name" content="NijO COFFEE 泥臼咖啡">
-	<meta name="author" content="Tiffany">
+    <meta name="keywords" content="NijO,coffee,dessert">
+    <meta name="description" content="我們一起吃著泥臼甜點喝著NijO COFFEE，比著泥臼手勢，合照一張。">
+    <meta property="og:site_name" content="NijO COFFEE 泥臼咖啡">
+    <meta name="author" content="Tiffany">
+    <link rel="icon" href="Images/favico.ico">
 </head>
 
 <script type="text/javascript">
-  function MM_preloadImages() { //v3.0
-    var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-      var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-      if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-  }
-  
-  function MM_swapImgRestore() { //v3.0
-    var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-  }
-  
-  function MM_findObj(n, d) { //v4.01
-    var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-      d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-    if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-    for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-    if(!x && d.getElementById) x=d.getElementById(n); return x;
-  }
-  
-  function MM_swapImage() { //v3.0
-    var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-     if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-  }
-  </script>
+    function MM_preloadImages() { //v3.0
+        var d = document;
+        if (d.images) {
+            if (!d.MM_p) d.MM_p = new Array();
+            var i, j = d.MM_p.length,
+                a = MM_preloadImages.arguments;
+            for (i = 0; i < a.length; i++)
+                if (a[i].indexOf("#") != 0) {
+                    d.MM_p[j] = new Image;
+                    d.MM_p[j++].src = a[i];
+                }
+        }
+    }
+
+    function MM_swapImgRestore() { //v3.0
+        var i, x, a = document.MM_sr;
+        for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+    }
+
+    function MM_findObj(n, d) { //v4.01
+        var p, i, x;
+        if (!d) d = document;
+        if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+            d = parent.frames[n.substring(p + 1)].document;
+            n = n.substring(0, p);
+        }
+        if (!(x = d[n]) && d.all) x = d.all[n];
+        for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+        for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+        if (!x && d.getElementById) x = d.getElementById(n);
+        return x;
+    }
+
+    function MM_swapImage() { //v3.0
+        var i, j = 0,
+            x, a = MM_swapImage.arguments;
+        document.MM_sr = new Array;
+        for (i = 0; i < (a.length - 2); i += 3)
+            if ((x = MM_findObj(a[i])) != null) {
+                document.MM_sr[j++] = x;
+                if (!x.oSrc) x.oSrc = x.src;
+                x.src = a[i + 2];
+            }
+    }
+</script>
+
 <body>
-    <header>	  
-    <ul class="header-left">
-        <li id="about" class="list"><a href="about.html" class="nav-link"  data-name="關於泥臼">About</a></li>
-        <li id="product" class="list"><a class="nav-link" href="product.html" data-name="商品介紹">Commodity</a></li>
-        <li id="store" class="list"><a class="nav-link" href="store.html"  data-name="商品預購">Online Store</a></li>
-    </ul>
-    <a class="header-logo" href="NijO.html">
-        <img src="Images/Interface/LOGO1/NIJO-01.png" alt="" height="80" id="logo01" >
-    </a>
-    <div class="header-right">
-        <a class="nav-link2" href="member/login.html" data-link="login" data-name="登入">LOGIN</a>
+    <header>
+        <ul class="header-left">
+            <li id="about" class="list"><a href="about.html" class="nav-link" data-name="關於泥臼">About</a></li>
+            <li id="product" class="list"><a class="nav-link" href="product.html" data-name="商品介紹">Product</a></li>
+            <li id="store" class="list"><a class="nav-link" href="preparing.html" data-name="商品預購">Online Store</a></li>
+        </ul>
+        <a class="header-logo" href="index.html">
+            <img src="Images/Interface/LOGO1/NIJO-01.png" alt="" height="80" id="logo01">
+        </a>
+        <div class="header-right">
+            <a class="nav-link2" href="preparing.html" data-link="login" data-name="登入">LOGIN</a>
             <span id="deco" class="nav-link2">|</span>
-        <a class="nav-link2" href="member/join.html" data-link="login" data-name="註冊">REGISTER</a>
-        <a href="shopping-bag.html" id="shoppingbag">
-            <div class="shopping-icon" >
-                <img src="Images/Interface/cart.png" alt="" width="32" class="header-right" id="cart1" onMouseMove="MM_swapImage('cart1','','Images/Interface/cart2.png',1)"  onMouseOut="MM_swapImgRestore()">
-            </div>
-        </a>
-        <a href="search.html" id="search">
-            <div class="search-icon">
-                <img src="Images/Interface/search.png" alt="" width="32" class="header-right" id="search1" onMouseOver="MM_swapImage('search1','','Images/Interface/search2.png',1)" onMouseOut="MM_swapImgRestore()">
-            </div>
-        </a>
-    </div>
+            <a class="nav-link2" href="preparing.html" data-link="login" data-name="註冊">REGISTER</a>
+            <a href="preparing.html" id="shoppingbag">
+                <div class="shopping-icon">
+                    <img src="Images/Interface/cart.png" alt="" width="32" class="header-right" id="cart1" onMouseMove="MM_swapImage('cart1','','Images/Interface/cart2.png',1)" onMouseOut="MM_swapImgRestore()">
+                </div>
+            </a>
+            <a href="preparing.html" id="search">
+                <div class="search-icon">
+                    <img src="Images/Interface/search.png" alt="" width="32" class="header-right" id="search1" onMouseOver="MM_swapImage('search1','','Images/Interface/search2.png',1)" onMouseOut="MM_swapImgRestore()">
+                </div>
+            </a>
+        </div>
     </header>
     <main>
-      <div style="position:relative;">
-      <img src="Images/About/about.jpg" class="img-about">
-      <h1 style="position:absolute; z-index:2; left:50px; top:80px">ABOUT NijO 關於我們</h1>
-      </div>
-      <section class="sec">
-        <div class="div-about">
-            <div class="about-img" width="200">
-              <h3><nobr>#0 「NijO」的由來</nobr></h3>
-              <img src="Images/About/nijo.jpg" width="150">
-            </div>
-            <div class="about-content">
-              <p>來說說為什麼叫Nijo，很多人都會好奇這個由來。<br>
-                 熟悉日本的朋友，想必會聯想到「二条」，沒錯！ そうです。<br><br>
-                 當想要自己開一間咖啡店的想法越來越確定時，我提出了店取名為「Nijo」的想法。
-                 京都是我們第一次一起出國旅行的城市，而nijo是她在京都記住第一個發音正確的日文字。
-                 在旅途中教了她無數的日文，整趟旅程結束，她只記得nijo，（不得不承認她用很特別的記憶法去記憶，記得當時參訪二条城，
-                 教她發音ni-jo-jo，結果她直接開心的嚷嚷「喔～原來二条城是你舅舅的呀」，然後就重複說著「你舅舅的二條城、你舅舅的二條城」，就這樣讓她記住了）<br><br>
-                 京都是我們旅行無數次也不會厭倦的城市，對我們來說意義非凡，也更確切地讓我們決定了店的命名。
-                 這個城市充滿人文的古都，古今交錯，不但保存非常多完整的歷史遺跡，也融合了許多現代的建築，
-                 有機會再好好和大家分享熱愛旅行的我們, 走訪京都的各個咖啡店和旅行的精彩回憶。
-              </p>
-            </div>
+        <div style="position:relative;">
+            <img src="Images/About/about.jpg" class="img-about">
+            <h1 style="position:absolute; z-index:2; left:50px; top:80px">ABOUT NijO 關於我們</h1>
         </div>
-      </section>
+        <section class="sec">
+            <div class="div-about">
+                <div class="about-img" width="200">
+                    <h3>
+                        <nobr>#0 「NijO」的由來</nobr>
+                    </h3>
+                    <img src="Images/About/nijo.jpg" width="150">
+                </div>
+                <div class="about-content">
+                    <p>來說說為什麼叫Nijo，很多人都會好奇這個由來。<br> 熟悉日本的朋友，想必會聯想到「二条」，沒錯！ そうです。<br><br> 當想要自己開一間咖啡店的想法越來越確定時，我提出了店取名為「Nijo」的想法。 京都是我們第一次一起出國旅行的城市，而nijo是她在京都記住第一個發音正確的日文字。 在旅途中教了她無數的日文，整趟旅程結束，她只記得nijo，（不得不承認她用很特別的記憶法去記憶，記得當時參訪二条城， 教她發音ni-jo-jo，結果她直接開心的嚷嚷「喔～原來二条城是你舅舅的呀」，然後就重複說著「你舅舅的二條城、你舅舅的二條城」，就這樣讓她記住了）
+                        <br><br> 京都是我們旅行無數次也不會厭倦的城市，對我們來說意義非凡，也更確切地讓我們決定了店的命名。 這個城市充滿人文的古都，古今交錯，不但保存非常多完整的歷史遺跡，也融合了許多現代的建築， 有機會再好好和大家分享熱愛旅行的我們, 走訪京都的各個咖啡店和旅行的精彩回憶。
+                    </p>
+                </div>
+            </div>
+        </section>
 
-      <section class="sec">
-        <h2 >#1 NijO其實有兩個LOGO，你們有發現嗎？</h2>
-        <div class="hand-div">
-          <div class="hand-img"><img src="Images/About/hand.jpg" width="300"></div>
-          <div class="hand-content">
-          <p>這是手稿初完成的時候拍下的。<br>
-            記得完成那天晚上，內心澎湃到不行，<br>
-            之前有跟大家簡單分享過這個LOGO，<br>
-            沒有太多的故事緣由，構想其實很簡單，<br>
-            就是闆娘拍照最常出現的拍照手勢。<br>
-            未來，我們一起吃著我們自己手作的泥臼甜點<br>
-            喝著NijO COFFEE，比著泥臼手勢，來合照一張。<br><br>
-            喜歡這個小小兩坪大的空間，<br>
-            一磚一瓦、一個圖騰、一個MENU、一張照片、一份雜誌傳單，<br>
-            都是我們自己完成的滿足感。
-          </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="sec">
-        <h2>#2 來聊聊NijO的menu</h2>
-        <div class="menu-div">
-          <div class="menu-img"><img src="Images/About/menu.jpg" width="450"></div>
-          <div class="menu-content">
-            <p>每一張都是我們自己製作，手工切割拼貼完成的！<br>
-              喜歡喝咖啡也喜歡旅行的我們，每到一個地方第一件事就是尋找咖啡店！吸引我們的店，除了風格外，menu絕對是第二。<br><br>
-              「簡潔、明瞭、質感」<br>
-              是我們給自己的設計方向，想要呈現出讓大家可以簡單就能看懂的menu，重點是,要很美！<br><br>
-              製作過程說繁複也不繁複、說不繁複也很繁複。<br>
-              在品項確定後，從文字的大小、字體的選擇到文字排版和Logo比例、使用橫式或直式的呈現，每一個我們都斤斤計較並且做出樣版來比對(後來算算居然有20多種)，再一個個討論出喜歡的細節和不喜歡的原因，然後決定。<br>
-              版型定案後開始做紙張的選擇，不同的紙質印上去的呈現都不一樣，跑了好幾趟文具店和輸出店，選喜歡的紙和色系、印出了幾十種樣品讓我們自己細看和挑選，確認好紙後，最重要的也是最後的關鍵，你們拿在手上的感受！<br>
-              要拿很久也不想放下～<br>只能說，真的超開心我們完成它了！<br>
-              menu的手感等你親自來感受。<br>拿著NIJO menu點一杯泥臼咖啡。
-            </p>
-        </div>
-      </div>
-      </section>
-      <section class="sec">
-        <h2>#3 圍裙設計</h2>
-        <div class="apron-div">
-          <div class="apron-content">
-            <p>我們對「圍裙」一直有著相同的想法，認為穿圍裙除了呈現專業，讓人感受到對自己工作的執著。<br><br>
-              從以前進入工作區就一定要求穿上圍裙，沒穿圍裙！SORRY～不可以進來😎。<br><br>
-              圍裙的製作在一開始，我們也是花了不少時間上網搜尋款式，但都沒有讓我們100%喜歡和滿意的。<br>
-              後來經過朋友介紹，知道「詩意的是」可以透過顧客想法，客製化量身訂做圍裙，於是就馬上開始自己手繪設計圖，傳達我們的想法和概念及需求給設計師，透過一來一往的討論和修改，從選色、長度、材質、背部的款式，再到去現場試穿、正式選布，從身高比例等再去微調圍裙的每一個細節，最後的完成圖其實我們都是彼此構想在腦海中，我們相信設計師的專業讓設計師加入她的巧思，終於完成這件我們都非常喜歡的圍裙。<br><br>
-              我們很喜歡，希望你們也喜歡。
-            </p>
+        <section class="sec">
+            <h2>#1 NijO其實有兩個LOGO，你們有發現嗎？</h2>
+            <div class="hand-div">
+                <div class="hand-img"><img src="Images/About/hand.jpg" width="300"></div>
+                <div class="hand-content">
+                    <p>這是手稿初完成的時候拍下的。<br> 記得完成那天晚上，內心澎湃到不行，
+                        <br> 之前有跟大家簡單分享過這個LOGO，
+                        <br> 沒有太多的故事緣由，構想其實很簡單，
+                        <br> 就是闆娘拍照最常出現的拍照手勢。
+                        <br> 未來，我們一起吃著我們自己手作的泥臼甜點
+                        <br> 喝著NijO COFFEE，比著泥臼手勢，來合照一張。<br><br> 喜歡這個小小兩坪大的空間，
+                        <br> 一磚一瓦、一個圖騰、一個MENU、一張照片、一份雜誌傳單，
+                        <br> 都是我們自己完成的滿足感。
+                    </p>
+                </div>
             </div>
-            <div class="apron-img"><img class="img" src="Images/About/apron.jpg" width="400"></div>
-        </div>
-        
-      </section>
-      <section class="sec">
-        <h2>#4 老闆與老闆娘</h2>
-        <div class="boss-img">
-          <img class="img01" src="Images/About/boss.jpg " height="300">
-          <img class="img02" src="Images/About/boss2.jpg" height="300">
-        </div>
-      </section>
+        </section>
+
+        <section class="sec">
+            <h2>#2 來聊聊NijO的menu</h2>
+            <div class="menu-div">
+                <div class="menu-img"><img src="Images/About/menu.jpg" width="450"></div>
+                <div class="menu-content">
+                    <p>每一張都是我們自己製作，手工切割拼貼完成的！<br> 喜歡喝咖啡也喜歡旅行的我們，每到一個地方第一件事就是尋找咖啡店！吸引我們的店，除了風格外，menu絕對是第二。
+                        <br><br> 「簡潔、明瞭、質感」
+                        <br> 是我們給自己的設計方向，想要呈現出讓大家可以簡單就能看懂的menu，重點是,要很美！
+                        <br><br> 製作過程說繁複也不繁複、說不繁複也很繁複。
+                        <br> 在品項確定後，從文字的大小、字體的選擇到文字排版和Logo比例、使用橫式或直式的呈現，每一個我們都斤斤計較並且做出樣版來比對(後來算算居然有20多種)，再一個個討論出喜歡的細節和不喜歡的原因，然後決定。
+                        <br> 版型定案後開始做紙張的選擇，不同的紙質印上去的呈現都不一樣，跑了好幾趟文具店和輸出店，選喜歡的紙和色系、印出了幾十種樣品讓我們自己細看和挑選，確認好紙後，最重要的也是最後的關鍵，你們拿在手上的感受！
+                        <br> 要拿很久也不想放下～
+                        <br>只能說，真的超開心我們完成它了！<br> menu的手感等你親自來感受。
+                        <br>拿著NIJO menu點一杯泥臼咖啡。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="sec">
+            <h2>#3 圍裙設計</h2>
+            <div class="apron-div">
+                <div class="apron-content">
+                    <p>我們對「圍裙」一直有著相同的想法，認為穿圍裙除了呈現專業，讓人感受到對自己工作的執著。<br><br> 從以前進入工作區就一定要求穿上圍裙，沒穿圍裙！SORRY～不可以進來😎。
+                        <br><br> 圍裙的製作在一開始，我們也是花了不少時間上網搜尋款式，但都沒有讓我們100%喜歡和滿意的。
+                        <br> 後來經過朋友介紹，知道「詩意的是」可以透過顧客想法，客製化量身訂做圍裙，於是就馬上開始自己手繪設計圖，傳達我們的想法和概念及需求給設計師，透過一來一往的討論和修改，從選色、長度、材質、背部的款式，再到去現場試穿、正式選布，從身高比例等再去微調圍裙的每一個細節，最後的完成圖其實我們都是彼此構想在腦海中，我們相信設計師的專業讓設計師加入她的巧思，終於完成這件我們都非常喜歡的圍裙。
+                        <br><br> 我們很喜歡，希望你們也喜歡。
+                    </p>
+                </div>
+                <div class="apron-img"><img class="img" src="Images/About/apron.jpg" width="400"></div>
+            </div>
+
+        </section>
+        <section class="sec">
+            <h2>#4 老闆與老闆娘</h2>
+            <div class="boss-img">
+                <img class="img01" src="Images/About/boss.jpg " height="300">
+                <img class="img02" src="Images/About/boss2.jpg" height="300">
+            </div>
+        </section>
     </main>
 </body>
 <footer>
-  <div class="footer-left"><a class="footer-logo" href="NijO.html">
-  <img src="Images/Interface/LOGO2/手勢5.png" class="footer-logo" alt="" width="150" id="logo2" onMouseMove="MM_swapImage('logo2','','Images/Interface/LOGO2/手勢3.png',1)"  onMouseOut="MM_swapImgRestore()">
-  </a>
-  </div>
-  <div class="footer-right">
-      <ul class="footer-info">
-          <li>
-              <p>E-mail :</p>
-              <a href="mailto:nijotainan@gmail.com">nijotainan@gmail.com</a></li>
-          <li class="tel">
-              <p>Tel :</p>
-              <span>0963-635-258</span>
-      </ul>
-      <div class="add">
-          <p>Add :</p>
-          <address>台南市北區育德路601號<address>
+    <div class="footer-left">
+        <a class="footer-logo" href="index.html">
+            <img src="Images/Interface/LOGO2/手勢5.png" class="footer-logo" alt="" width="150" id="logo2" onMouseMove="MM_swapImage('logo2','','Images/Interface/LOGO2/手勢3.png',1)" onMouseOut="MM_swapImgRestore()">
+        </a>
+    </div>
+    <div class="footer-right">
+        <ul class="footer-info">
+            <li>
+                <p>E-mail :</p>
+                <a href="mailto:nijotainan@gmail.com">nijotainan@gmail.com</a></li>
+            <li class="tel">
+                <p>Tel :</p>
+                <span>0963-635-258</span>
+        </ul>
+        <div class="add">
+            <p>Add :</p>
+            <address>台南市北區育德路601號<address>
           <address>No. 601, Yucheng Rd., North Dist., Tainan City 704, Taiwan</address>
-      </div>
-      <div class="ig">
-          <a class="instagram" href="https://www.instagram.com/nijo_coffee/"> 
-          <img src="Images/Interface/ig.png" class="in-icon" alt="" width="50" id="ig" onMouseMove="MM_swapImage('ig','','Images/Interface/ig2.png',1)"  onMouseOut="MM_swapImgRestore()"></img>
-          </a>
-      </div>
-  </div>
+        </div>
+        <div class="ig">
+            <a class="instagram" href="https://www.instagram.com/nijo_coffee/">
+                <img src="Images/Interface/ig.png" class="in-icon" alt="" width="50" id="ig" onMouseMove="MM_swapImage('ig','','Images/Interface/ig2.png',1)" onMouseOut="MM_swapImgRestore()"></img>
+            </a>
+        </div>
+    </div>
 </footer>
+
 </html>
